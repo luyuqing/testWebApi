@@ -1,0 +1,9 @@
+{
+    "extra-files": [
+        {
+            "type": "json",
+            "path": "path/to/file.json",
+            "jsonpath": "$.json.path.to.field"
+        }
+    ]
+}
