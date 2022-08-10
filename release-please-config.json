@@ -1,0 +1,9 @@
+{
+    "extra-files": [
+        {
+            "type": "json",
+            "path": "test.json",
+            "jsonpath": "version"
+        }
+    ]
+}
