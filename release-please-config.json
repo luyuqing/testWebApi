@@ -1,7 +1,14 @@
 {
     "packages": {
-        "my-client": {
-            "release-type": "node"
+        ".": {
+            "release-type": "simple",
+            "extra-files": [
+                {
+                  "type": "json",
+                  "path": "test.json",
+                  "jsonpath": "version"
+                }
+            ]
         }
     }
 }
