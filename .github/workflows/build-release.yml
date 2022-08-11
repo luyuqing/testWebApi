@@ -50,12 +50,5 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Upload release binary
-        uses: actions/upload-release-asset@v1.0.2
-        env:
-          GITHUB_TOKEN: ${{ github.token }}
-        with:
-          upload_url: ${{ steps.get_release.outputs.upload_url }}
-          asset_path: \release\TestWebAPI-${{ steps.previoustag.outputs.tag }}.zip
-          asset_name: TestWebAPI-${{ steps.previoustag.outputs.tag }}.zip
-          asset_content_type: application/zip
+      - name: Just echo
+        run: echo "hahaha"
