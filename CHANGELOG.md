@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.2.7](https://github.com/luyuqing/testWebApi/compare/v1.2.6...v1.2.7) (2022-08-11)
+
+
+### Bug Fixes
+
+* add s ([3295fe5](https://github.com/luyuqing/testWebApi/commit/3295fe5ce9330ec5409a40a74601321097588ba1))
+* use simple if ([d8afcf1](https://github.com/luyuqing/testWebApi/commit/d8afcf108986eb972307c062fb46af2c2898fdb4))
+
 ## [1.2.6](https://github.com/luyuqing/testWebApi/compare/v1.2.5...v1.2.6) (2022-08-11)
 
 
