@@ -2,8 +2,6 @@
     "packages": {
         ".": {
             "release-type": "simple",
-            "release-as": "1.1.0",
-            "last": "this and above needed for 1st time",
             "extra-files": [
                 {
                     "type": "json",
