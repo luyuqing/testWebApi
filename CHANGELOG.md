@@ -1,5 +1,16 @@
 # Changelog
 
+## [1.2.5](https://github.com/luyuqing/testWebApi/compare/v1.2.4...v1.2.5) (2022-08-11)
+
+
+### Bug Fixes
+
+* jjust text ([e147ab4](https://github.com/luyuqing/testWebApi/commit/e147ab4c00aec66cd88aac5eccadd03adaea89ce))
+* remove branch condition ([090bc9c](https://github.com/luyuqing/testWebApi/commit/090bc9c0409008595a5417fb843db43d03fb3f81))
+* try a logic ([05b41ae](https://github.com/luyuqing/testWebApi/commit/05b41ae9b2718a7be0e20ebe9328bb48ce22e2a6))
+* typo ([47c246f](https://github.com/luyuqing/testWebApi/commit/47c246f52b77a0a5828cf97f37f71f2c38c067f9))
+* use pullrequest.head.ref ([4443637](https://github.com/luyuqing/testWebApi/commit/4443637a2d25e9dc5ae277d0a56a30dc2ba39648))
+
 ## [1.2.4](https://github.com/luyuqing/testWebApi/compare/v1.2.3...v1.2.4) (2022-08-11)
 
 
