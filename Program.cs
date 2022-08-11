@@ -13,7 +13,6 @@ builder.Services.AddNHibernate(doSchemaExport: true);
 
 var app = builder.Build();
 
-// test test
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
