@@ -1,6 +1,6 @@
 {
     "packages": {
-        "./my-client": {
+        "my-client": {
             "release-type": "node"
         }
     }
