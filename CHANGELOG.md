@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.4](https://github.com/luyuqing/testWebApi/compare/v1.2.3...v1.2.4) (2022-08-11)
+
+
+### Bug Fixes
+
+* space a line ([5e99319](https://github.com/luyuqing/testWebApi/commit/5e993196e82ecc8d53f43df7ca2159d66319c8a9))
+
 ## [1.2.3](https://github.com/luyuqing/testWebApi/compare/v1.2.2...v1.2.3) (2022-08-11)
 
 
