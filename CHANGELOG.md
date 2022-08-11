@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.2.6](https://github.com/luyuqing/testWebApi/compare/v1.2.5...v1.2.6) (2022-08-11)
+
+
+### Bug Fixes
+
+* add new echo ([7b43bc1](https://github.com/luyuqing/testWebApi/commit/7b43bc1c7ab4c1557540d57c58cb875306f888e6))
+* add new echo ([cfdab81](https://github.com/luyuqing/testWebApi/commit/cfdab81b97fc43cd08eacfe3b914556d0b00e5cc))
+* remove line ([db80a31](https://github.com/luyuqing/testWebApi/commit/db80a316518018e9607d68d66c958a87fb695a9d))
+* remove redundant1 ([1bde83e](https://github.com/luyuqing/testWebApi/commit/1bde83ea39f32004d79be3c3fa45f9c825d1cdb6))
+* test only startswith logic ([29682e4](https://github.com/luyuqing/testWebApi/commit/29682e4e2124020fa8eb27640e450959bc9153b9))
+* test only startswith logic ([ca09000](https://github.com/luyuqing/testWebApi/commit/ca0900067de93d68281029a89b0c6aa77079ab0c))
+* use direct equal ([7b7c698](https://github.com/luyuqing/testWebApi/commit/7b7c698bc9d53225da38b4a6b4edc4a50ae02d5d))
+
 ## [1.2.5](https://github.com/luyuqing/testWebApi/compare/v1.2.4...v1.2.5) (2022-08-11)
 
 
