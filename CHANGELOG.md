@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.2](https://github.com/luyuqing/testWebApi/compare/v1.2.1...v1.2.2) (2022-08-11)
+
+
+### Bug Fixes
+
+* change pki to testwebapi ([88bf394](https://github.com/luyuqing/testWebApi/commit/88bf394aa852cddde2a477d86c11a45044eb8d4a))
+
 ## [1.2.1](https://github.com/luyuqing/testWebApi/compare/v1.2.0...v1.2.1) (2022-08-11)
 
 
