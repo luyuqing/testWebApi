@@ -24,36 +24,5 @@ jobs:
         run: echo ${{github.event.pull_request.head.ref}}
         run : echo ${{github.event.pull_request.merged}}
 
-      - name: upload release asset
-        uses: actions/checkout@v3
-
-      - name: Setup .NET
-        uses: actions/setup-dotnet@v2
-        with:
-          dotnet-version: 6.0.x
-      - name: Restore dependencies
-        run: dotnet restore
-      - name: Release
-        run: dotnet publish --output \release
-      - name: upload release files to workflow
-        uses: actions/upload-artifact@v3
-        with:
-          name: ReleaseVersion-${{ steps.previoustag.outputs.tag }}
-          path: \release
-
-      - name: Archive content
-        uses: thedoctor0/zip-release@master
-        with:
-          directory: \release
-          filename: TestWebAPI-${{ steps.previoustag.outputs.tag }}.zip
-
-      - name: Get Current Release
-        id: get_release
-        uses: joutvhu/get-release@v1
-        with:
-          tag_name: ${{ steps.previoustag.outputs.tag }}
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Just echo
-        run: echo "hahaha"
+      - name: "just echo merged"
+        run: echo ${{github.event.pull_request.merged}}
