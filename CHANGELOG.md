@@ -1,5 +1,26 @@
 # Changelog
 
+## [1.0.2](https://github.com/luyuqing/testWebApi/compare/v1.0.1...v1.0.2) (2022-08-11)
+
+
+### Bug Fixes
+
+* add to manifest.json ([0e8cf2e](https://github.com/luyuqing/testWebApi/commit/0e8cf2ee167055e1e2a674fc725a45d9abd6d708))
+* change to command ([fbb3769](https://github.com/luyuqing/testWebApi/commit/fbb37699eb6fe14a65079f58f99c891c645039ac))
+* move my-client to client folder ([4b52c28](https://github.com/luyuqing/testWebApi/commit/4b52c281444f89727bc1f10f82071b8ba3fce292))
+* readme test ([5fe38b8](https://github.com/luyuqing/testWebApi/commit/5fe38b8d7842ef0aed2781c84cd7c9b885cb3036))
+* remove . ([9f1438b](https://github.com/luyuqing/testWebApi/commit/9f1438bc612eb2436573d8c299e605cfa4228b1a))
+* remove client ([6618821](https://github.com/luyuqing/testWebApi/commit/66188211fab2f7e41b9b081f222251e8004d6134))
+* remove handlegh ([faaac2a](https://github.com/luyuqing/testWebApi/commit/faaac2ae8bce37739514d567e93a3913c373465e))
+* remove version from manifest ([c2192e8](https://github.com/luyuqing/testWebApi/commit/c2192e80560f266d324cb08a85eed9f4faa34b61))
+* remove version.txt ([8479a74](https://github.com/luyuqing/testWebApi/commit/8479a74b2031a0d293c3f4590db5081ce80e2787))
+* test extra ([d3e6366](https://github.com/luyuqing/testWebApi/commit/d3e6366148d742973556f78b8a2b371d1297b64c))
+* test manifest ([bb9355e](https://github.com/luyuqing/testWebApi/commit/bb9355ea015486a5e8f5ed87d712678f5b8960ff))
+* test my-client ([20e8cb9](https://github.com/luyuqing/testWebApi/commit/20e8cb93c3c88b37cf680ecc080fde8693804e59))
+* try simple and version.txt ([1cbe5bd](https://github.com/luyuqing/testWebApi/commit/1cbe5bdf3123441dc596d8496fafd98a266cb797))
+* use 1.0.2 ([a3e9358](https://github.com/luyuqing/testWebApi/commit/a3e9358edc78eecdf497716c698f430b68f042f7))
+* use simple again ([3ddd0d8](https://github.com/luyuqing/testWebApi/commit/3ddd0d81881243c8676284c627d5129f7dfe932e))
+
 ## [1.0.1](https://github.com/luyuqing/testWebApi/compare/v1.0.0...v1.0.1) (2022-08-11)
 
 
