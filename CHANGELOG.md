@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.2.3](https://github.com/luyuqing/testWebApi/compare/v1.2.2...v1.2.3) (2022-08-11)
+
+
+### Bug Fixes
+
+* add branch filter ([da5684f](https://github.com/luyuqing/testWebApi/commit/da5684faa50b8af8d3df48c8b0fe91958308a053))
+* echo hahaha and remove bootstrap-sha ([556b467](https://github.com/luyuqing/testWebApi/commit/556b467582ead451eb4e0e31bd4e38e4421dfd6a))
+
 ## [1.2.2](https://github.com/luyuqing/testWebApi/compare/v1.2.1...v1.2.2) (2022-08-11)
 
 
