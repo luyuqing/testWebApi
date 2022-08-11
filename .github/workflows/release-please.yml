@@ -9,7 +9,4 @@ jobs:
     steps:
       - uses: google-github-actions/release-please-action@v3
         with:
-            release-type: simple
-            extra-files: |
-            README.md
-            test.json
+            release-type: manifest

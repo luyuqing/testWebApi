@@ -1,0 +1,7 @@
+{
+    "packages": {
+        "./my-client": {
+            "release-type": "node"
+        }
+    }
+}
