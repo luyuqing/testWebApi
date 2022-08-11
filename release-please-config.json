@@ -5,7 +5,7 @@
             "extra-files": [
                 {
                   "type": "json",
-                  "path": "test.json",
+                  "path": "my-client/package.json",
                   "jsonpath": "version"
                 }
             ]
