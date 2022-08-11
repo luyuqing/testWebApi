@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.2](https://github.com/luyuqing/testWebApi/compare/v1.0.1...v1.0.2) (2022-08-11)
+
+
+### Bug Fixes
+
+* try simple and version.txt ([1cbe5bd](https://github.com/luyuqing/testWebApi/commit/1cbe5bdf3123441dc596d8496fafd98a266cb797))
+
 ## [1.0.1](https://github.com/luyuqing/testWebApi/compare/v1.0.0...v1.0.1) (2022-08-10)
 
 
