@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.0.5](https://github.com/luyuqing/testWebApi/compare/v1.0.4...v1.0.5) (2022-08-11)
+
+
+### Bug Fixes
+
+* add comment again ([cb83d95](https://github.com/luyuqing/testWebApi/commit/cb83d95dbf5d21465784b41b976c9ecbbb968f2e))
+* check if can remove last release sha ([c885ead](https://github.com/luyuqing/testWebApi/commit/c885ead1ec902e3d1fc8d6ed98380f28a03300f6))
+* remove comment again ([0a4d206](https://github.com/luyuqing/testWebApi/commit/0a4d20634adb856d5c281958e5541f0b034eeafb))
+
 ## [1.0.4](https://github.com/luyuqing/testWebApi/compare/v1.0.3...v1.0.4) (2022-08-11)
 
 
