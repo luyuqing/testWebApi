@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.1](https://github.com/luyuqing/testWebApi/compare/v1.2.0...v1.2.1) (2022-08-11)
+
+
+### Bug Fixes
+
+* use net6 ([5a9881b](https://github.com/luyuqing/testWebApi/commit/5a9881b6ec7e183bb4c51b9aa076d9579900237f))
+
 ## [1.2.0](https://github.com/luyuqing/testWebApi/compare/v1.1.0...v1.2.0) (2022-08-11)
 
 
