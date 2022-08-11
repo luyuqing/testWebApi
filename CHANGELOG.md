@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.1.0](https://github.com/luyuqing/testWebApi/compare/v1.0.5...v1.1.0) (2022-08-11)
+
+
+### Bug Fixes
+
+* add ([42a28ff](https://github.com/luyuqing/testWebApi/commit/42a28ff047a2083c643637586ed683550128fc44))
+* add then remove ([a585aec](https://github.com/luyuqing/testWebApi/commit/a585aec826390fe82731329dfbc855783e209b5a))
+* release as ([d8301d4](https://github.com/luyuqing/testWebApi/commit/d8301d42b43caafc766f70522cc47a2c710acac4))
+
 ## [1.0.5](https://github.com/luyuqing/testWebApi/compare/v1.0.4...v1.0.5) (2022-08-11)
 
 
