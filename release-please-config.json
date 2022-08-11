@@ -1,7 +1,7 @@
 {
     "packages": {
         ".": {
-            "bootstrap-sha": "3468ce52085c9b321f51d831510e78d334de196a",
+            "last-release-sha": "5d17370e4e25f634f99890d020401c827ea89ee4",
             "release-type": "simple",
             "extra-files": [
                 {
