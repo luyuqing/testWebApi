@@ -4,9 +4,14 @@
             "release-type": "simple",
             "extra-files": [
                 {
-                  "type": "json",
-                  "path": "my-client/package.json",
-                  "jsonpath": "version"
+                    "type": "json",
+                    "path": "client/my-client/package.json",
+                    "jsonpath": "version"
+                },
+                {
+                    "type": "json",
+                    "path": "client/my-client/package-lock.json",
+                    "jsonpath": "version"
                 }
             ]
         }
