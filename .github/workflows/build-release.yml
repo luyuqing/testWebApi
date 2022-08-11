@@ -3,6 +3,7 @@ name: Build Release version
 on:
   pull_request:
     types: [closed]
+    branches: 'release-please*'
 
 permissions:
   contents: write
