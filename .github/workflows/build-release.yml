@@ -29,7 +29,7 @@ jobs:
       - name: Restore dependencies
         run: dotnet restore
       - name: Release
-        run: dotnet publish --configuration Release Client --output \release
+        run: dotnet publish --output \release
       - name: upload release files to workflow
         uses: actions/upload-artifact@v3
         with:
@@ -40,7 +40,7 @@ jobs:
         uses: thedoctor0/zip-release@master
         with:
           directory: \release
-          filename: PKI-${{ steps.previoustag.outputs.tag }}.zip
+          filename: TestWebAPI-${{ steps.previoustag.outputs.tag }}.zip
 
       - name: Get Current Release
         id: get_release
@@ -56,6 +56,6 @@ jobs:
           GITHUB_TOKEN: ${{ github.token }}
         with:
           upload_url: ${{ steps.get_release.outputs.upload_url }}
-          asset_path: \release\PKI-${{ steps.previoustag.outputs.tag }}.zip
-          asset_name: PKI-${{ steps.previoustag.outputs.tag }}.zip
+          asset_path: \release\TestWebAPI-${{ steps.previoustag.outputs.tag }}.zip
+          asset_name: TestWebAPI-${{ steps.previoustag.outputs.tag }}.zip
           asset_content_type: application/zip
