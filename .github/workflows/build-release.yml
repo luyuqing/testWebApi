@@ -1,0 +1,61 @@
+name: Build Release version
+
+on:
+  pull_request:
+    types: [closed]
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    if: github.event.pull_request.merged == true
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2.2.0
+        with:
+          fetch-depth: 0 # Required due to the way Git works, without it this action won't be able to find any or the correct tags
+      - name: "Get Previous tag"
+        id: previoustag
+        uses: "WyriHaximus/github-action-get-previous-tag@v1"
+
+      - name: upload release asset
+        uses: actions/checkout@v3
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v2
+        with:
+          dotnet-version: 5.0.x
+      - name: Restore dependencies
+        run: dotnet restore
+      - name: Release
+        run: dotnet publish --configuration Release Client --output \release
+      - name: upload release files to workflow
+        uses: actions/upload-artifact@v3
+        with:
+          name: ReleaseVersion-${{ steps.previoustag.outputs.tag }}
+          path: \release
+
+      - name: Archive content
+        uses: thedoctor0/zip-release@master
+        with:
+          directory: \release
+          filename: PKI-${{ steps.previoustag.outputs.tag }}.zip
+
+      - name: Get Current Release
+        id: get_release
+        uses: joutvhu/get-release@v1
+        with:
+          tag_name: ${{ steps.previoustag.outputs.tag }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Upload release binary
+        uses: actions/upload-release-asset@v1.0.2
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        with:
+          upload_url: ${{ steps.get_release.outputs.upload_url }}
+          asset_path: \release\PKI-${{ steps.previoustag.outputs.tag }}.zip
+          asset_name: PKI-${{ steps.previoustag.outputs.tag }}.zip
+          asset_content_type: application/zip
