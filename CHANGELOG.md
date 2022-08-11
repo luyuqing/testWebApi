@@ -1,5 +1,20 @@
 # Changelog
 
+## [1.2.0](https://github.com/luyuqing/testWebApi/compare/v1.1.0...v1.2.0) (2022-08-11)
+
+
+### Features
+
+* add build-release.yml ([72c0adf](https://github.com/luyuqing/testWebApi/commit/72c0adf0b71ff33002a65bdce30657c08ac84fe1))
+
+
+### Bug Fixes
+
+* add ([e08454a](https://github.com/luyuqing/testWebApi/commit/e08454aa11221d8666ca226319f2c5793baca555))
+* add bootstrap-sha ([286babe](https://github.com/luyuqing/testWebApi/commit/286babe93a51d7823517086497c3648375d2dabe))
+* remove release as ([c9a4f73](https://github.com/luyuqing/testWebApi/commit/c9a4f732ef0ebaecd2c0064c31289e0e1181735a))
+* use token ([6d557fc](https://github.com/luyuqing/testWebApi/commit/6d557fcaba6a1c8bd1ee626309cc2a31a8aca976))
+
 ## [1.1.0](https://github.com/luyuqing/testWebApi/compare/v1.0.5...v1.1.0) (2022-08-11)
 
 
