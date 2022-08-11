@@ -1,7 +1,6 @@
 {
     "packages": {
         ".": {
-            "last-release-sha": "5d17370e4e25f634f99890d020401c827ea89ee4",
             "release-type": "simple",
             "extra-files": [
                 {
