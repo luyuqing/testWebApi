@@ -9,7 +9,7 @@ permissions:
 
 jobs:
   build:
-    if: startswith(${{ github.event.pull_request.head.ref }}, 'release-please') == true
+    if: github.event.pull_request.head.ref == 'release-please--branches--main'
     runs-on: ubuntu-latest
 
     steps:
