@@ -9,7 +9,7 @@ permissions:
 
 jobs:
   build:
-    if: github.event.pull_request.merged == true && startswith(${{ github.event.pull_request.head.ref }}, 'release-please') == true
+    if: startswith(${{ github.event.pull_request.head.ref }}, 'release-please') == true
     runs-on: ubuntu-latest
 
     steps:
