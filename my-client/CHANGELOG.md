@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/luyuqing/testWebApi/compare/my-client-v1.0.0...my-client-v1.0.1) (2022-08-11)
+
+
+### Bug Fixes
+
+* readme test ([5fe38b8](https://github.com/luyuqing/testWebApi/commit/5fe38b8d7842ef0aed2781c84cd7c9b885cb3036))
+
 ## 1.0.0 (2022-08-11)
 
 
