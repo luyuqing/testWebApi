@@ -22,6 +22,7 @@ jobs:
 
       - name: "just echo ref"
         run: echo ${{github.event.pull_request.head.ref}}
+        run : echo ${{github.event.pull_request.merged}}
 
       - name: upload release asset
         uses: actions/checkout@v3
