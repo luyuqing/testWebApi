@@ -17,18 +17,14 @@ jobs:
 
   build-release:
     if: ${{startswith(github.event.commits[0].author.name, 'github-actions')}}
-    runs-on: ubuntu-latest
     needs: release-please
     steps:
       - uses: actions/checkout@v2.2.0
         with:
           fetch-depth: 0 
-      - name: "Get Previous tag"
+      - name: "Get tag"
         id: previoustag
         uses: "WyriHaximus/github-action-get-previous-tag@v1"
 
       - name: "just echo tag"
         run: echo ${{steps.previoustag.outputs.tag}}
-      
-
-
