@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.14](https://github.com/luyuqing/testWebApi/compare/v1.2.13...v1.2.14) (2022-08-12)
+
+
+### Bug Fixes
+
+* echo commit msg ([a49c51e](https://github.com/luyuqing/testWebApi/commit/a49c51e6d90f9f526e9a6b68af5314ca4fe3fb16))
+
 ## [1.2.13](https://github.com/luyuqing/testWebApi/compare/v1.2.12...v1.2.13) (2022-08-12)
 
 
