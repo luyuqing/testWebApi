@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.2.11](https://github.com/luyuqing/testWebApi/compare/v1.2.10...v1.2.11) (2022-08-12)
+
+
+### Bug Fixes
+
+* add quote ([dbadf2c](https://github.com/luyuqing/testWebApi/commit/dbadf2cf8cf11a68665ec5c6c691f60d45f333c4))
+* release please name ([dea7517](https://github.com/luyuqing/testWebApi/commit/dea751719d055d34713517d5562f75456a57d75c))
+* run workflow sequentially ([d1d03f2](https://github.com/luyuqing/testWebApi/commit/d1d03f2c667ecf61e9a1bb4561a1b316ca1d839d))
+
 ## [1.2.10](https://github.com/luyuqing/testWebApi/compare/v1.2.9...v1.2.10) (2022-08-12)
 
 
