@@ -1,8 +1,11 @@
-name: Build Release version
+name: Build Release 
 
 on:
   pull_request:
     types: [closed]
+  workflow_run:
+    workflows:[release please]
+    types: [completed]
 
 permissions:
   contents: write
