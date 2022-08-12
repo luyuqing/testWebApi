@@ -14,4 +14,4 @@ jobs:
             command: manifest
 
       - name: "echo push commits"
-        run: echo ${{github.event.push.commits[0].message}}
+        run: echo ${{github.event.commits[0].author.name}}
