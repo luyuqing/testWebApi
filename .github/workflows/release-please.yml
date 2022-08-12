@@ -28,7 +28,7 @@ jobs:
         uses: "WyriHaximus/github-action-get-previous-tag@v1"
 
       - name: "just echo tag"
-        run: echo ${{steps.latesttag.outputs.tag}}
+        run: echo ${{steps.previoustag.outputs.tag}}
       
 
 
