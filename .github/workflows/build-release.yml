@@ -25,3 +25,6 @@ jobs:
 
       - name: "just echo merged"
         run: echo ${{github.event.pull_request.merged}}
+
+      - name: "just echo tag"
+        run: echo {{steps.previoustag.outputs.tag}}
