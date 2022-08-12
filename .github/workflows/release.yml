@@ -5,7 +5,7 @@ on:
 name: release-please
 jobs:
   release-please:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     steps:
       - uses: google-github-actions/release-please-action@v3
         with:
@@ -17,6 +17,7 @@ jobs:
 
   build-release:
     if: ${{startswith(github.event.commits[0].author.name, 'github-actions')}}
+    runs-on: windows-latest
     needs: release-please
     steps:
       - uses: actions/checkout@v2.2.0
