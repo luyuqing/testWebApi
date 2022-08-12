@@ -12,6 +12,11 @@
                     "type": "json",
                     "path": "client/my-client/package-lock.json",
                     "jsonpath": "version"
+                },
+                {
+                    "type": "json",
+                    "path": "client/my-client/package-lock.json",
+                    "jsonpath": "$.packages[''].version"
                 }
             ]
         }
