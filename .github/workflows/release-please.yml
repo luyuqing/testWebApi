@@ -14,4 +14,4 @@ jobs:
             command: manifest
 
       - name: "echo push ref"
-        run: echo ${{github.event.push.head.ref}}
+        run: echo ${{github.event.push.commits[0].author}}
