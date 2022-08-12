@@ -26,9 +26,6 @@ jobs:
         id: latesttag
         uses: "actions-ecosystem/action-get-latest-tag@v1"
 
-      - name: "just echo ref"
-        run: echo ${{github.event.pull_request.head.ref}}
-
       - name: "just echo tag"
         run: echo ${{steps.latesttag.outputs.tag}}
       
