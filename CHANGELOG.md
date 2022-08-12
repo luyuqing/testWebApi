@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.9](https://github.com/luyuqing/testWebApi/compare/v1.2.8...v1.2.9) (2022-08-12)
+
+
+### Bug Fixes
+
+* add echo tag ([f12524d](https://github.com/luyuqing/testWebApi/commit/f12524d2ec6d4b6002952400ddf82dfcef9c4ad9))
+
 ## [1.2.8](https://github.com/luyuqing/testWebApi/compare/v1.2.7...v1.2.8) (2022-08-11)
 
 
