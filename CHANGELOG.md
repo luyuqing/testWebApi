@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.2.12](https://github.com/luyuqing/testWebApi/compare/v1.2.11...v1.2.12) (2022-08-12)
+
+
+### Bug Fixes
+
+* add echo push ref ([0bf0702](https://github.com/luyuqing/testWebApi/commit/0bf07022c670e56d9ca797bd8b75195dfe5aaae4))
+* use latest tag ([9cdf974](https://github.com/luyuqing/testWebApi/commit/9cdf97450accf1e62dd1e2126f3fc6da00704fe6))
+
 ## [1.2.11](https://github.com/luyuqing/testWebApi/compare/v1.2.10...v1.2.11) (2022-08-12)
 
 
