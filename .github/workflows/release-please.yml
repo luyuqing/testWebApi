@@ -13,5 +13,5 @@ jobs:
             token: ${{ secrets.GITHUB_TOKEN }}
             command: manifest
 
-      - name: "echo push ref"
-        run: echo ${{github.event.commits[0].author}}
+      - name: "echo push commits"
+        run: echo ${{github.event.push.commits[0].message}}
