@@ -11,3 +11,6 @@ jobs:
         with:
             token: ${{ secrets.GITHUB_TOKEN }}
             command: manifest
+
+      - name: "echo push ref"
+        run: echo ${{github.event.push.head.ref}}
