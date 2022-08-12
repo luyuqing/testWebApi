@@ -2,7 +2,6 @@ on:
   push:
     branches:
       - main
-      - '!release-please*'
 name: release-please
 jobs:
   release-please:
@@ -15,7 +14,23 @@ jobs:
 
       - name: "echo push commits"
         run: echo ${{github.event.commits[0].author.name}}
+
+  build-release:
+    if: ${{startswith(github.event.commits[0].author.name, 'github-actions')}}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2.2.0
+        with:
+          fetch-depth: 0 
+      - name: "Get latest tag"
+        id: latesttag
+        uses: "actions-ecosystem/action-get-latest-tag@v1"
+
+      - name: "just echo ref"
+        run: echo ${{github.event.pull_request.head.ref}}
+
+      - name: "just echo tag"
+        run: echo ${{steps.latesttag.outputs.tag}}
       
-      - name: "echo commits message"
-        run: echo ${{github.event.commits[0].message}}
+
 
