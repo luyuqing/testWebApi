@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.18](https://github.com/luyuqing/testWebApi/compare/v1.2.17...v1.2.18) (2022-08-12)
+
+
+### Bug Fixes
+
+* runs on windows-latest ([69172bf](https://github.com/luyuqing/testWebApi/commit/69172bf985244270f604a7fc3b38771bae2a9cec))
+
 ## [1.2.17](https://github.com/luyuqing/testWebApi/compare/v1.2.16...v1.2.17) (2022-08-12)
 
 
