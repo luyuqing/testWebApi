@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.2.17](https://github.com/luyuqing/testWebApi/compare/v1.2.16...v1.2.17) (2022-08-12)
+
+
+### Bug Fixes
+
+* add t ([f16f6e5](https://github.com/luyuqing/testWebApi/commit/f16f6e504b11c6d70c3a0d95b6cff60788d891ad))
+* get prev tag ([9fd7cff](https://github.com/luyuqing/testWebApi/commit/9fd7cff2b118f94e06de002f7124d2eec53088eb))
+* test not push ([42b1cf9](https://github.com/luyuqing/testWebApi/commit/42b1cf9e7a05e955cfc51afdee61323045d0b704))
+
 ## [1.2.16](https://github.com/luyuqing/testWebApi/compare/v1.2.15...v1.2.16) (2022-08-12)
 
 
