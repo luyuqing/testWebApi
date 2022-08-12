@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.19](https://github.com/luyuqing/testWebApi/compare/v1.2.18...v1.2.19) (2022-08-12)
+
+
+### Bug Fixes
+
+* add to pakcages.sub version ([4f4b805](https://github.com/luyuqing/testWebApi/commit/4f4b80518f58d0f4f581b93d1a0e20a34778f88c))
+
 ## [1.2.18](https://github.com/luyuqing/testWebApi/compare/v1.2.17...v1.2.18) (2022-08-12)
 
 
