@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.15](https://github.com/luyuqing/testWebApi/compare/v1.2.14...v1.2.15) (2022-08-12)
+
+
+### Bug Fixes
+
+* uses one yml ([0db8004](https://github.com/luyuqing/testWebApi/commit/0db80046c5cfddd115154b017f2ce0546b180284))
+
 ## [1.2.14](https://github.com/luyuqing/testWebApi/compare/v1.2.13...v1.2.14) (2022-08-12)
 
 
