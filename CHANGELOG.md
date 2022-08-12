@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.2.13](https://github.com/luyuqing/testWebApi/compare/v1.2.12...v1.2.13) (2022-08-12)
+
+
+### Bug Fixes
+
+* echo author name ([c6699e5](https://github.com/luyuqing/testWebApi/commit/c6699e5cb70ecd8dd3c5d7b049ba9bb6ed39222a))
+* echo commits author ([8e6a43a](https://github.com/luyuqing/testWebApi/commit/8e6a43a38a56aebed07e6bd2ab15d0e02c8432e5))
+* echo event.commit authro ([d081415](https://github.com/luyuqing/testWebApi/commit/d0814151d54c60e1ca4a307597893307ca3e1f13))
+* not include release-please ([cdb1caf](https://github.com/luyuqing/testWebApi/commit/cdb1caf5a48a77db48f01a02daf59841ab0a8702))
+
 ## [1.2.12](https://github.com/luyuqing/testWebApi/compare/v1.2.11...v1.2.12) (2022-08-12)
 
 
