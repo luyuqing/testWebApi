@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.25](https://github.com/luyuqing/testWebApi/compare/v1.2.24...v1.2.25) (2022-08-15)
+
+
+### Bug Fixes
+
+* handleghrelease ([e8d9556](https://github.com/luyuqing/testWebApi/commit/e8d9556b994b2e2f8ebfcef75230ffd6789786c4))
+
 ## [1.2.24](https://github.com/luyuqing/testWebApi/compare/v1.2.23...v1.2.24) (2022-08-15)
 
 
