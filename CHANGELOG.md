@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.2.20](https://github.com/luyuqing/testWebApi/compare/v1.2.19...v1.2.20) (2022-08-15)
+
+
+### Bug Fixes
+
+* remove a comment ([4f60637](https://github.com/luyuqing/testWebApi/commit/4f606371ff6bd6ee33b250056f5de03e197aecd2))
+* test ([c3a3528](https://github.com/luyuqing/testWebApi/commit/c3a35284d1baf69ed051488131113e7a1b6966a8))
+
 ## [1.2.19](https://github.com/luyuqing/testWebApi/compare/v1.2.18...v1.2.19) (2022-08-12)
 
 
