@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.2.23](https://github.com/luyuqing/testWebApi/compare/v1.2.22...v1.2.23) (2022-08-15)
+
+
+### Bug Fixes
+
+* comment 3 rm ([3831136](https://github.com/luyuqing/testWebApi/commit/3831136556cbb22d3967eeea9db1e92c10ecc5dd))
+* rm booststrap sha ([35c49b8](https://github.com/luyuqing/testWebApi/commit/35c49b82c4b8ceea5fac81c49120a32ef1e0975c))
+
 ## [1.2.22](https://github.com/luyuqing/testWebApi/compare/v1.2.21...v1.2.22) (2022-08-15)
 
 
