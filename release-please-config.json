@@ -2,7 +2,6 @@
     "packages": {
         ".": {
             "release-type": "simple",
-            "bootstrap-sha": "aa66bb24ecadb03cecbaa56f93bf30d7be9cea85",
             "extra-files": [
                 {
                     "type": "json",
