@@ -12,7 +12,6 @@ jobs:
         with:
             token: ${{ secrets.GITHUB_TOKEN }}
             command: manifest
-            handleGHRelease: true
 
       - name: "echo push commits"
         run: echo ${{github.event.commits[0].author.name}}
