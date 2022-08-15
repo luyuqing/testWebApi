@@ -2,6 +2,7 @@
     "packages": {
         ".": {
             "release-type": "simple",
+            "last-release-sha": "e1554e2d846ec58837445cc5413c1c84277f4e00",
             "extra-files": [
                 {
                     "type": "json",
