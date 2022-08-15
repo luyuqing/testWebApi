@@ -8,10 +8,11 @@ jobs:
   release-please:
     runs-on: windows-latest
     steps:
-      - uses: google-github-actions/release-please-action@v3.3.0
+      - uses: google-github-actions/release-please-action@v3
         with:
             token: ${{ secrets.GITHUB_TOKEN }}
             command: manifest
+            handleGHRelease: true
 
       - name: "echo push commits"
         run: echo ${{github.event.commits[0].author.name}}
